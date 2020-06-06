@@ -30,7 +30,7 @@ const Fetcher = () => {
             .then(data => {
                 setLoaded(true);
                 console.log(data);
-                setMessage('Loaded (check in console)');
+                setMessage('Loaded (check in the console)');
             })
             .catch(err => {
                 setMessage('Something went wrong - check the console');
