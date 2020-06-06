@@ -1,10 +1,28 @@
 .App {
   text-align: center;
+  width:600px;
+  margin:auto;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+input, button, select{
+  margin: 20px 0;
+  font-size:20px;
+  width:100%;
+}
+
+.two-columns{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.two-columns > * {
+  width:50%
 }
 
 @media (prefers-reduced-motion: no-preference) {
